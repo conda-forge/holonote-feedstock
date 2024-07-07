@@ -1,5 +1,5 @@
 {% set name = "holonote" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/holonote-{{ version }}.tar.gz
-  sha256: 7adc3d749f1483a5b29b14c619da7fcd88eea4037f1a5c66868eaf18dea3c2ce
+  sha256: 20c0f8b6832629078565064d4d671ab8adcb18ba30b6a77d6ec10be11c0fccbc
 
 build:
   noarch: python
